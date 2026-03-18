@@ -1,0 +1,32 @@
+add_newline = false
+
+format = '$all$directory$character'
+
+[username]
+show_always = false
+style_user = "bg:#ff6b6b fg:#000000 bold"
+format = "[ $user ]($style)"
+
+[time]
+disabled = true
+time_format = "%H:%M"
+style = "bg:#6c5ce7 fg:#ffffff bold"
+format = "[ $time ]($style)"
+
+[directory]
+style = "bg:#74b9ff fg:#000000 bold"
+format = "[ $path ]($style)"
+
+[character]
+success_symbol = '[❯](bold green)'
+error_symbol = '[✗](bold red) '
+
+[conda]
+disabled = false
+format = '[$symbol$environment](dimmed green) '
+
+# ~/.config/starship.toml
+
+[cmd_duration]
+min_time = 500
+format = 'Gosh.. that took [$duration](bold yellow)'
