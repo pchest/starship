@@ -29,4 +29,9 @@ format = '[$symbol$environment](dimmed green) '
 
 [cmd_duration]
 min_time = 500
-format = 'Gosh.. that took [$duration](bold yellow)'
+format = 'Gosh.. that took [$duration](bold yellow)!'
+
+[rlang]
+disabled = true
+format = "[R $version]($style)"
+style = "blue bold"
