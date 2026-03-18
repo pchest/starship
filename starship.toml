@@ -18,8 +18,8 @@ style = "bg:#74b9ff fg:#000000 bold"
 format = "[ $path ]($style)"
 
 [character]
-success_symbol = '[❯](bold green)'
-error_symbol = '[✗](bold red) '
+success_symbol = '[ ❯](bold green)'
+error_symbol = '[ ✗](bold red) '
 
 [conda]
 disabled = false
