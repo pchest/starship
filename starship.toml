@@ -44,3 +44,6 @@ disabled = false
 
 [git_metrics]
 disabled = false
+
+[quarto]
+disabled = true
