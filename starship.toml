@@ -35,3 +35,12 @@ format = 'Gosh.. that took [$duration](bold yellow)!'
 disabled = true
 format = "[R $version]($style)"
 style = "blue bold"
+
+[git_branch]
+disabled = false
+
+[git_status]
+disabled = false
+
+[git_metrics]
+disabled = false
